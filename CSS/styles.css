@@ -1,0 +1,159 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(../Imagens/planodefundo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(114, 3, 73);
+    font-size: 60px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(53, 10, 37);
+}
+
+.Menu {
+    padding: 3px;
+    display: flex;
+    justify-content: center; 
+}
+
+.corlink {
+    color: rgb(53, 10, 37);
+    font-size: 20px;
+}
+
+.Biografia {
+    margin: 4%;
+    text-align: left; 
+}
+
+.projetos {
+    margin: 4%;
+}
+
+.premios {
+    margin: 4%;
+}
+
+.links {
+    margin: 4%;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.section {
+    text-align: center;
+    width: 300px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 40px;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.input {
+    height: 50px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.select {
+    background-color: rgb(114, 3, 73);
+    color: rgb(238, 172, 183);
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    margin: 30px auto;
+    padding: 50px;
+}
+
+#secao-bio {
+    text-align: center;
+    float: left;
+    margin-right: 10px;
+}
+
+#secao-links, #secao-prem, #secao-projetos, #secao-refs {
+    text-align: center;
+    padding: 50px;
+    line-height: 2.0;
+}
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.conteudo-principal {
+    text-align: left;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 50px;
+    line-height: 2.0;
+}
+
+.foto-camila {
+    float: left;
+    width: 150px;
+    height: auto; 
+    margin-right: 10px;
+    padding: 10px; 
+    padding-left: 20px;
+  
+  }
+
+  .camila-info {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; /
+  }
+  
+  #secao-bio h3 {
+    margin: 0; 
+  }
+  
+  .foto-camila {
+    width: 150px; 
+    height: auto;
+    margin-left: 10px; 
+ 
+  }
+  
+  #list-style {
+    display: flex; 
+    justify-content: center;
+  }
+  
+  #secao-links li:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+  }
+  #li-padd{
+    padding: 4px;
+  }
+  
+  #secao-links li img {
+    width: 300px; 
+    height: auto;
+  }
+  
