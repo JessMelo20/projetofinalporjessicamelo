@@ -156,4 +156,87 @@ p {
     width: 300px; 
     height: auto;
   }
+  @media only screen and (max-width: 767px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .Menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .select {
+        width: 80%;
+    }
+
+    .foto-camila {
+        float: none;
+        margin-right: 0;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    .camila-info {
+        display: block;
+    }
+
+    #secao-links ul {
+        flex-direction: column;
+    }
+
+    #secao-links li {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    #secao-links li img {
+        width: 100%;
+    }
+}
+
+/* Estilos para telas entre 768 pixels e 1024 pixels (tablets em modo retrato) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    .container {
+        max-width: 800px;
+    }
+}
+
+/* Estilos para telas maiores ou iguais a 1024 pixels (desktops e tablets em modo paisagem) */
+@media only screen and (min-width: 1024px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    .container {
+        max-width: 1200px;
+    }
+
+    .conteudo-principal {
+        padding: 80px;
+    }
+
+    .section {
+        width: 500px;
+    }
+
+    #secao-links ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #secao-links li {
+        margin-right: 20px;
+        margin-bottom: 20px;
+        width: 300px;
+    }
+}
   
