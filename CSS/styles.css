@@ -151,11 +151,16 @@ p {
   #li-padd{
     padding: 4px;
   }
-  
+ 
   #secao-links li img {
     width: 300px; 
     height: auto;
   }
+
+  #secao-links li:hover .video-title {
+    opacity: 1;
+  }
+  
   @media only screen and (max-width: 767px) {
     h1 {
         font-size: 40px;
@@ -199,7 +204,6 @@ p {
     }
 }
 
-/* Estilos para telas entre 768 pixels e 1024 pixels (tablets em modo retrato) */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     h1 {
         font-size: 48px;
@@ -210,7 +214,6 @@ p {
     }
 }
 
-/* Estilos para telas maiores ou iguais a 1024 pixels (desktops e tablets em modo paisagem) */
 @media only screen and (min-width: 1024px) {
     h1 {
         font-size: 60px;
@@ -239,4 +242,34 @@ p {
         width: 300px;
     }
 }
+  
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    left: 30px; 
+    background-color: rgb(53, 10, 37);
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .back-to-top span {
+    display: block;
+    text-align: center;
+  }
+  
+  .back-to-top:hover {
+    background-color: rgb(114, 3, 73);
+    transform: scale(1.1);
+  }
+  
+  .back-to-top:focus {
+    outline: none;
+  }
+  
   
